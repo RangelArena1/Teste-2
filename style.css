@@ -2,7 +2,7 @@ body {
     height: 100%;
     background-image: linear-gradient(to top, #cb9480d5, #ecbfafd5, #ec9e82d5);
     background-attachment: fixed;
-    margin: 0; /* Remova a margem padrão do body */
+    margin: 0;
     padding: 0;
 }
 
@@ -64,8 +64,9 @@ a:hover {
     box-shadow: 3px 3px 8px rgb(15, 15, 15);
     padding: 10px;
     margin: 20px auto; /* Centraliza horizontalmente e mantém margem vertical */
-    width: 100%; /* Defina a largura como 100% para dispositivos móveis */
+    width: 90%; /* Largura para dispositivos móveis */
 }
+
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -73,19 +74,18 @@ h2 {
 }
 
 /* Estilos para telas menores que 600px (dispositivos móveis) */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     h1 {
         font-size: 24px;
     }
     .m1 {
-        width: 100%; /* Defina a largura como 100% para dispositivos móveis */
+        width: 90%;
     }
     img {
         margin: 0 5px; /* Aumente o espaçamento horizontal entre as imagens */
     }
     .A {
         flex-direction: row; /* Altera o fluxo de volta para linha */
-        margin: 0; /* Remova margens laterais */
     }
 }
 
@@ -97,38 +97,3 @@ header {
     border-radius: 10px;
 }
 
-/* Estilos para o rodapé */
-footer {
-    bottom: 0;
-    width: 100%;
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto no rodapé */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento do texto no centro */
-    font-size: 16px; /* Tamanho da fonte */
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-    body {
-        zoom: 100%;
-        -moz-transform: scale(1);
-        -moz-transform-origin: 0 0;
-        -o-transform: scale(1);
-        -o-transform-origin: 0 0;
-        -webkit-transform: scale(1);
-        -webkit-transform-origin: 0 0;
-    }
-}
