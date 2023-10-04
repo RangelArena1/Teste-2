@@ -91,9 +91,27 @@ h2 {
 
 header {
     text-align: center;
-    margin: 10px;
-    padding: 10px;
-    background-color: #69362367;
-    border-radius: 10px;
+    margin: 0;
+    padding: 20px; /* Aumentei o padding para deixar mais espaço ao redor do conteúdo */
+    background-color: #333;
+   
+    
+    
 }
 
+/* Se você quiser adicionar margem ao elemento header no topo da página: */
+/* header {
+    margin-top: 10px;
+} */
+
+
+/* Estilos para o rodapé */
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto no centro */
+    font-size: 16px; /* Tamanho da fonte */
+}
